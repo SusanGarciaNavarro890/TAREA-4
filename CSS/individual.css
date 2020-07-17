@@ -1,0 +1,131 @@
+* {
+ 	margin: 30px;
+ 	padding: 0px;
+ }
+
+ body {
+ 	 background: #52ff00;
+ 	 color: #444;
+ }
+
+ #contenedor {
+ 	 width: 80%;
+ 	 max-width:1000px;
+ 	 margin: auto;
+ 	 margin-top: 20px;
+ 	 margin-bottom: 20px;
+ 	 
+ }
+
+ header {
+ 	 height: 160px;
+ 	 background: #00ffff;
+ 	 font-family: fantasy;
+ 	 color: black;
+ 	 margin:10px 0;
+ 	 box-sizing:border-box;
+ }
+
+ header h1 {
+ 	 font-size: 30px;
+ 	 text-align: center;
+ 	 line-height: 27px;
+ 	 padding:20px 0;
+ }
+
+ nav {
+ 	 background: white;
+ 	 height: 100px;
+ 	 color: black;
+ 	 font-family: fantasy;
+ }
+
+ nav h2 {
+ 	 font-size: 27px;
+ 	 text-align: center;
+ 	 line-height: 90px;
+ }
+
+ #CEVICHE {
+ 	 width: 30%;
+ 	 height: 1100px;
+ 	 float: right;
+ 	 background: blue;
+ 	 margin-top: 0px;
+ 	 margin-right: 5px;
+ 	 font-family:fantasy;
+ 	 color: black;
+ 	 
+ }
+
+ #CEVICHEDECAMARON h2 {
+ 	 font-size: 30px;
+ 	 text-align: center;
+ 	 line-height: 100px;
+ 	 padding: 20px;
+
+ }
+
+ aside {
+ 	width: 32%;
+ 	height: 1100PX;
+ 	float: right;
+ 	background: yellow;
+ 	margin-top: 0px;
+ 	margin-right: 0px;
+ 	font-family: helvetica;
+ 	color: red;
+ 	
+ }
+
+ aside h2 {
+ 	 font-size: 30px;
+ 	 text-align: center;
+ 	 line-height: 65px;
+ 	 padding: 20px;
+
+ }
+
+ footer {
+ 	width: 30%;
+ 	height: 1000px;
+ 	float: flex;
+ 	background:
+ 	margin-top: 15px;
+ 	margin-right: 20px;
+ 	font-family: fantasy;
+ 	color: black;
+ 	
+
+ 	
+ }
+
+ footer h2 {
+ 	font-size: 30px;
+ 	text-align: center;
+ 	line-height: 50px;
+ 	padding: 20px;
+ }
+
+ @media screen and (max-width: 800px){
+ 	body {
+ 		background:#572364;
+ 	}
+ 	#CEVICHE {
+ 		width:100%;
+ 	}
+
+ 	aside {
+ 		width:100%;
+ 	}
+
+ 	footer {
+ 		width:100%;
+ 	}
+ }
+
+ @media screen and (max-width: 800px){
+ 	#contenedor {
+ 		width:100%;
+ 	}
+ 	
